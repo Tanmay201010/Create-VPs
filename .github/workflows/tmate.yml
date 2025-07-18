@@ -69,7 +69,7 @@ jobs:
         run: |
           curl -X POST \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer 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" \
+            -H "Authorization: Bearer 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" \
             -H "Content-Type: application/json" \
             https://api.github.com/repos/${{ github.repository }}/dispatches \
             -d '{"event_type": "create-vps", "client_payload": {"vps_name": "manual-vps", "backup": true}}'
